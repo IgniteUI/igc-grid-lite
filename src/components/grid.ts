@@ -78,7 +78,7 @@ export interface ApexFilteredEvent<T extends object> {
 }
 
 /**
- * Events for the apex-grid.
+ * Events for the igc-grid-lite.
  */
 export interface ApexGridEventMap<T extends object> {
   /**
@@ -124,7 +124,7 @@ export interface ApexGridEventMap<T extends object> {
  * Out of the box it provides row virtualization, sort and filter operations (client and server side),
  * the ability to template cells and headers and column hiding.
  *
- * @element apex-grid
+ * @element igc-grid-lite
  *
  * @fires sorting - Emitted when sorting is initiated through the UI.
  * @fires sorted - Emitted when a sort operation initiated through the UI has completed.
@@ -404,10 +404,10 @@ export class ApexGrid<T extends object> extends EventEmitterBase<ApexGridEventMa
 
   protected renderHeaderRow() {
     return html`
-      <apex-grid-header-row
+      <igc-grid-lite-header-row
       style=${styleMap(this.DOM.columnSizes)}
       .columns=${this.columns}
-      ></apex-grid-header-row>
+      ></igc-grid-lite-header-row>
     `;
   }
 

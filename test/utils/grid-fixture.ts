@@ -52,10 +52,10 @@ export default class GridTestFixture<T extends object> {
   }
 
   public setupTemplate() {
-    return html`<apex-grid
+    return html`<igc-grid-lite
       .data=${this.data}
       .columns=${this.columnConfig}
-    ></apex-grid>`;
+    ></igc-grid-lite>`;
   }
 
   public async setUp() {

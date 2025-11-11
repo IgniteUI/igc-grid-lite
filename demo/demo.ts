@@ -169,10 +169,10 @@ const data = generateData(1e4);
 ApexGrid.register();
 
 render(
-  html`${themeChoose}<apex-grid
+  html`${themeChoose}<igc-grid-lite
       .data=${data}
       .columns=${columns}
-    ></apex-grid>`,
+    ></igc-grid-lite>`,
   document.getElementById('demo')!,
 );
 await setTheme('bootstrap');

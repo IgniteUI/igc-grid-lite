@@ -27,7 +27,7 @@ export class GridDOMController<T extends object> implements ReactiveController {
 
   public rowRenderer: RenderItemFunction<T> = (data: T, index: number) => {
     return html`
-      <apex-grid-row
+      <igc-grid-lite-row
         part="row"
         style=${styleMap({ ...this.columnSizes, ...this.getActiveRowStyles(index) })}
         .index=${index}
@@ -35,7 +35,7 @@ export class GridDOMController<T extends object> implements ReactiveController {
         .data=${data}
         .columns=${this.host.columns}
       >
-      </apex-grid-row>
+      </igc-grid-lite-row>
     `;
   };
 

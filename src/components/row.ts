@@ -51,13 +51,13 @@ export default class ApexGridRow<T extends object> extends LitElement {
       ${map(this.columns, (column) =>
         column.hidden
           ? nothing
-          : html`<apex-grid-cell
+          : html`<igc-grid-lite-cell
               part="cell"
               .active=${key === column.key && index === this.index}
               .column=${column}
               .row=${this as ApexGridRow<T>}
               .value=${this.data[column.key]}
-            ></apex-grid-cell>`
+            ></igc-grid-lite-cell>`
       )}
     `;
   }

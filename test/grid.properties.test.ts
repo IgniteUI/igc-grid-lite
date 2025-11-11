@@ -16,21 +16,21 @@ class InitialDataStateFixture<T extends TestData> extends GridTestFixture<T> {
   ];
 
   public override setupTemplate() {
-    return html`<apex-grid
+    return html`<igc-grid-lite
       .data=${this.data}
       .columns=${this.columnConfig}
       .sortExpressions=${this.sortState}
       .filterExpressions=${this.filterState}
-    ></apex-grid>`;
+    ></igc-grid-lite>`;
   }
 }
 
 class AutoGenerateFixture<T extends TestData> extends GridTestFixture<T> {
   public override setupTemplate() {
-    return html`<apex-grid
+    return html`<igc-grid-lite
       auto-generate
       .data=${this.data}
-    ></apex-grid>`;
+    ></igc-grid-lite>`;
   }
 }
 

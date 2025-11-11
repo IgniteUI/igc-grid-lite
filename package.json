@@ -1,10 +1,10 @@
 {
-  "name": "apex-grid",
+  "name": "igc-grid-lite",
   "version": "0.0.0",
   "description": "Web component data grid following open-wc recommendations",
   "keywords": ["lit", "web-component", "lit-element"],
-  "license": "SEE LICENSE IN LICENSE.mds",
-  "author": "apex-grid",
+  "license": "SEE LICENSE IN LICENSE",
+  "author": "igc-grid-lite",
   "exports": {
     ".": "./dist/src/index.js",
     "./define": "./dist/src/define.js"
