@@ -7,7 +7,7 @@
   "author": "igc-grid-lite",
   "repository": {
     "type": "git",
-    "url": "https://github.com/IgniteUI/igc-grid-lite.git"
+    "url": "https://github.com/IgniteUI/igc-grid-lite"
   },
   "exports": {
     ".": "./dist/src/index.js",
