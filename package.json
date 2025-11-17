@@ -1,5 +1,5 @@
 {
-  "name": "igc-grid-lite",
+  "name": "igniteui-grid-lite",
   "version": "0.0.0",
   "description": "Web component data grid following open-wc recommendations",
   "keywords": [
@@ -7,11 +7,11 @@
     "web-component",
     "lit-element"
   ],
-  "license": "SEE LICENSE IN LICENSE",
-  "author": "igc-grid-lite",
+  "license": "MIT",
+  "author": "Infragistics",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/IgniteUI/igc-grid-lite.git"
+    "url": "git+https://github.com/IgniteUI/igniteui-grid-lite.git"
   },
   "exports": {
     ".": "./dist/src/index.js",

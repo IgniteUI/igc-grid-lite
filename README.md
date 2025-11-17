@@ -1,6 +1,6 @@
-# igc-grid-lite
-[![Node.js CI](https://github.com/IgniteUI/igc-grid-lite/actions/workflows/node.js.yml/badge.svg)](https://github.com/IgniteUI/igc-grid-lite/actions/workflows/node.js.yml)
-[![Coverage Status](https://coveralls.io/repos/github/IgniteUI/igc-grid-lite/badge.svg?branch=master)](https://coveralls.io/github/IgniteUI/igc-grid-lite?branch=master)
+# Ignite UI Grid Lite
+[![Node.js CI](https://github.com/IgniteUI/igniteui-grid-lite/actions/workflows/node.js.yml/badge.svg)](https://github.com/IgniteUI/igniteui-grid-lite/actions/workflows/node.js.yml)
+[![Coverage Status](https://coveralls.io/repos/github/IgniteUI/igniteui-grid-lite/badge.svg?branch=master)](https://coveralls.io/github/IgniteUI/igniteui-grid-lite?branch=master)
 
 
 This is still a **very** early proof of concept for a web component based data grid.
