@@ -1,6 +1,7 @@
 {
-  "name": "igniteui-grid-lite",
+  "name": "igniteui-grid-lite-workspace",
   "version": "0.0.0",
+  "private": true,
   "description": "Web component data grid following open-wc recommendations",
   "keywords": [
     "lit",
@@ -12,10 +13,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/IgniteUI/igniteui-grid-lite"
-  },
-  "exports": {
-    ".": "./dist/src/index.js",
-    "./define": "./dist/src/define.js"
   },
   "type": "module",
   "engines": {
