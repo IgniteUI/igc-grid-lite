@@ -1,6 +1,6 @@
 import { css } from 'lit';
 
-import type { Themes } from '../../../internal/theming.js';
+import type { Themes } from '../../internal/theming.js';
 // Dark Overrides
 import { styles as bootstrapDark } from './dark/grid.bootstrap.css.js';
 import { styles as fluentDark } from './dark/grid.fluent.css.js';
