@@ -2,7 +2,6 @@
 @use '../themes/light/themes' as *;
 
 $theme: $material;
-
 $filtering-row-background: var-get($theme, 'filtering-row-background');
 $filtering-row-text-color: var-get($theme, 'filtering-row-text-color');
 $border: var-get($theme, 'header-border-width') var-get($theme, 'header-border-style') var-get($theme, 'header-border-color');

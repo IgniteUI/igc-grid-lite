@@ -46,10 +46,6 @@ igc-select {
 		&::before {
 			box-shadow: none;
 		}
-		
-		[role=combobox] {
-			height: 100%;
-		}
 	}
 	
 	&::part(container),
